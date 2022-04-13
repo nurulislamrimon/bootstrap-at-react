@@ -1,12 +1,15 @@
-# Getting Started with Create React App
+npm install react-bootstrap bootstrap
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+/* The following line can be included in your src/index.js or App.js file*/
 
-## Available Scripts
+import 'bootstrap/dist/css/bootstrap.min.css';
 
-In the project directory, you can run:
+import Button from 'react-bootstrap/Button';
 
-### `npm start`
+// or less ideally
+import { Button } from 'react-bootstrap';
+
+<!-- <Button variant="primary">Button</Button> -->
 
 Runs the app in the development mode.\
 Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
